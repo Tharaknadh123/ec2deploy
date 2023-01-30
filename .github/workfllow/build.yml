@@ -52,4 +52,5 @@ jobs:
         run: terraform init
       - name:  apply configuartion
         run: terraform apply --auto-approve
+        #
   
