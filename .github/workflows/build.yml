@@ -34,7 +34,7 @@ jobs:
         run: terraform plan
   apply_configuraion:
     needs: [plan_configuration]
-    name: plan
+    name: apply
     runs-on: ubuntu-latest
     steps:
       - name: checkoutcode
