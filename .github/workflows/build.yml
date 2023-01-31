@@ -9,6 +9,9 @@ jobs:
   Plan_Configuration:
     name: plan
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Terraform
     steps:
       - name: checkoutcode
         uses: actions/checkout@v3
